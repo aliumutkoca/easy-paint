@@ -23,6 +23,7 @@ void keyPressed() {
   if (keyPressed) {
     if (key == DELETE) {
       background(#9BD7D5);
+      key=0;
     }
   }
 }
